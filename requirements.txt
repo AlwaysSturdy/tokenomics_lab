@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+plotly
+joblib
+psycopg2-binary
+sqlalchemy
+scikit-learn
+#pip install -r requirements.txt
