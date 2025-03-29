@@ -109,7 +109,7 @@ def render_tab():
 
     # Hiển thị kết quả
     st.markdown("""<h4 style='color:#4CAF50'>🎯 Tokenomic Stability Index (TSI): 
-        <span style='font-size: 28px; color:#2196F3'>{:.2f}/100</span></h4>
+        <span style='font-size: 28px; color:#2196F3'>{:.2f}/1000</span></h4>
     """.format(tsi_score), unsafe_allow_html=True)
 
     st.markdown(f"📌 **Phân loại Tokenomics:** <span style='color:#f44336'>{cluster_label}</span>", unsafe_allow_html=True)
